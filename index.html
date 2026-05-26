@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astromorph Studio | Premium VFX & 3D Animation</title>
+    <meta name="description" content="Astromorph Studio is a high-end visual effects and 3D animation studio specializing in cinematic quality visuals, compositing, and motion graphics.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- SVG Gooey Filter -->
+    <svg style="display:none">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="30" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 40 -20" result="goo" />
+                <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+        </defs>
+    </svg>
+
+    <!-- Liquid Light Blobs -->
+    <div class="gooey-container">
+        <div class="cursor-glow blob-1"></div>
+        <div class="cursor-glow blob-2"></div>
+        <div class="cursor-glow blob-3"></div>
+    </div>
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">ASTROMORPH</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact" class="btn btn-outline">Let's Talk</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <div class="hero-scroll-container">
+        <div class="hero-sticky-wrapper">
+            <header id="home" class="hero">
+                <div class="hero-bg"></div>
+                <div class="hero-content zoom-in">
+                    <h1 class="hero-title">Creating Worlds Beyond Limits</h1>
+                    <p class="hero-subtitle text-glow">High-end visual effects, 3D animation, and motion design for the bold.</p>
+                    <div class="hero-cta">
+                        <a href="#work" class="btn btn-primary">View Showreel</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                </div>
+            </header>
+            <div class="hero-ripple"></div>
+        </div>
+    </div>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header zoom-in">
+                <h2>Beyond Imagination</h2>
+                <p>We are a collective of artists, technologists, and storytellers pushing the boundaries of what's possible.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text zoom-in">
+                    <h3>We craft visual masterpieces.</h3>
+                    <p>At Astromorph Studio, we believe that every pixel tells a story. From subtle compositing to full CGI environments, our team delivers cinematic quality for film, commercials, and interactive media.</p>
+                    <p>Our workflow combines cutting-edge technology with pure artistic vision, ensuring that every project is a true metamorphosis of ideas into visual reality.</p>
+                </div>
+                <div class="about-stats zoom-in glass-card">
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">12</span>
+                        <span class="stat-label">Industry Awards</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header zoom-in">
+                <h2>Our Expertise</h2>
+                <p>Comprehensive visual solutions tailored for modern storytelling.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass-card zoom-in" style="--delay: 0.1s">
+                    <div class="service-icon">✦</div>
+                    <h3>3D Animation</h3>
+                    <p>Lifelike character animation, complex particle simulations, and stunning procedural environments built from the ground up.</p>
+                </div>
+                <div class="service-card glass-card zoom-in" style="--delay: 0.2s">
+                    <div class="service-icon">✨</div>
+                    <h3>Compositing</h3>
+                    <p>Seamless integration of CGI and live-action elements. We perfect the details so the illusion is flawless.</p>
+                </div>
+                <div class="service-card glass-card zoom-in" style="--delay: 0.3s">
+                    <div class="service-icon">✺</div>
+                    <h3>Motion Graphics</h3>
+                    <p>Dynamic title sequences, UI animations, and abstract motion design that captures attention and elevates brands.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="work section">
+        <div class="container">
+            <div class="section-header zoom-in">
+                <h2>Featured Work</h2>
+                <p>A glimpse into our recent morphological creations.</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item zoom-in">
+                    <div class="portfolio-placeholder">
+                        <div class="portfolio-overlay">
+                            <h3>Project Alpha</h3>
+                            <p>Sci-Fi Short Film VFX</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item zoom-in">
+                    <div class="portfolio-placeholder">
+                        <div class="portfolio-overlay">
+                            <h3>Nebula Commercial</h3>
+                            <p>Full CGI Environment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item zoom-in">
+                    <div class="portfolio-placeholder">
+                        <div class="portfolio-overlay">
+                            <h3>Quantum UI</h3>
+                            <p>Motion Graphics</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item zoom-in">
+                    <div class="portfolio-placeholder">
+                        <div class="portfolio-overlay">
+                            <h3>Echoes</h3>
+                            <p>Creature Animation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="contact-wrapper glass-card zoom-in">
+                <div class="contact-info">
+                    <h2>Ready to Morph Your Vision?</h2>
+                    <p>Drop us a line and let's create something extraordinary together.</p>
+                    <div class="contact-details">
+                        <p>hello@astromorph.studio</p>
+                        <p>+1 (555) 123-4567</p>
+                        <p>Los Angeles, CA</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" required placeholder="Tell us about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">ASTROMORPH<span>.studio</span></div>
+            <p>&copy; 2026 Astromorph Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
